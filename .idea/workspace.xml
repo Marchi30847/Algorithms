@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70691d6c-9175-4d72-9ab1-3c4222ce9552" name="Changes" comment="Creating a new project">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchingTest.java" afterDir="false" />
+    <list default="true" id="70691d6c-9175-4d72-9ab1-3c4222ce9552" name="Changes" comment="Fixed a bug">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Searching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729623661378</updated>
-      <workItem from="1729623662137" duration="1218000" />
+      <workItem from="1729623662137" duration="5469000" />
     </task>
     <task id="LOCAL-00001" summary="Creating a new project">
       <option name="closed" value="true" />
@@ -121,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729624030960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a skipping algorithm">
+      <option name="closed" value="true" />
+      <created>1729624947752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729624947752</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed a bug">
+      <option name="closed" value="true" />
+      <created>1729625230771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729625230771</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +155,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating a new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating a new project" />
+    <MESSAGE value="Added a skipping algorithm" />
+    <MESSAGE value="Fixed a bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug" />
   </component>
 </project>

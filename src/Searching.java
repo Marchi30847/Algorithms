@@ -3,10 +3,12 @@ public class Searching {
 
     public static int skipping(int[] arr, int target, int stepSize) {
         int currentIndex = 0;
-        while (currentIndex < arr.length && currentIndex >= 0) {
+        int previousJumpIndex = -1;
+        while (currentIndex > previousJumpIndex) {
             if (arr[currentIndex] == target) {
                 return currentIndex;
             } else if (arr[currentIndex] < target) {
+                previousJumpIndex = currentIndex;
                 currentIndex = Math.min(currentIndex + stepSize, arr.length - 1);
             } else {
                 currentIndex--;
@@ -14,4 +16,8 @@ public class Searching {
         }
         return -1;
     }
+
+    /*public static int binarySearch(int[] arr, int target) {
+
+    }*/
 }
