@@ -3,7 +3,7 @@ public class Searching {
 
     public static int skipping(int[] arr, int target, int stepSize) {
         int currentIndex = 0;
-        while (currentIndex < arr.length) {
+        while (currentIndex < arr.length && currentIndex >= 0) {
             if (arr[currentIndex] == target) {
                 return currentIndex;
             } else if (arr[currentIndex] < target) {
